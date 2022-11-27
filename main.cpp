@@ -98,7 +98,7 @@ void prim(dequeGraph *graph, long long dis[], int path[], int n, int s)
             }
         }
         if (path[index] != 0)
-            printf("\n|%d|-->|%d\tȨֵΪ: %d\n", path[index], index,dis[index]);
+            printf("\n|%d|-->|%d|\tȨֵΪ: %d\n", path[index], index,dis[index]);
     }
 }
 
